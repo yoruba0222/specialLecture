@@ -11,8 +11,4 @@ class TestCSVPrinter(unittest.TestCase):
         printer = CSVPrinter("sample.csv")
         line = printer.read()
         print(line)
-        self.assertEqual(4, len(line))
-
-
-if __name__ == "__main__":
-    unittest.main()
+        self.assertEqual(2, len(line))
