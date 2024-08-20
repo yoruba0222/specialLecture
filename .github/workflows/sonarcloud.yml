@@ -16,7 +16,7 @@ jobs:
 				run: pip install tox
 			- name: Run tox
 				run: tox -e py
-			- name: SonarCould Scan
+			- name: SonarCloud Scan
 				uses: SonarSource/sonarcloud-github-action@master
 				env:
 					GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
