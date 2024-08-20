@@ -1,4 +1,4 @@
-#!/Users/i19oota/internship/specialLecture/.venv/bin/python3.11
+#!/Users/i19oota/internship/specialLecture/venv/bin/python3.11
 # -*- coding: utf-8 -*-
 import re
 import sys
